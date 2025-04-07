@@ -1,0 +1,264 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.center-right {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 150px;
+    font-family: 'Playwrite Island', serif;
+    font-weight: 200;
+    text-align: right;
+}
+
+.bottom-text {
+    top: 40%; 
+}
+.logo {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100px; 
+    height: auto; 
+    border: black 1px;
+}
+
+header h1 {
+    font-size: 100px;
+    font-family: 'Playwrite Island', serif; 
+    font-weight: 700; 
+    margin-bottom: 10px; 
+    text-align: right;
+}
+
+
+nav {
+    position: absolute; 
+    left: 0; 
+    top: 80px; 
+    margin: 0px;
+    position: absolute;
+    right: 0; 
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0; 
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    padding: 10px;
+}
+
+
+h2.section-title {
+    font-size: 2em;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+section {
+    margin-bottom: 40px;
+}
+
+.homepage-text {
+    position: absolute;
+    left: 20px; 
+    bottom: 110px; 
+    font-size: 25px; 
+    font-family: 'Times New Roman', serif; 
+    color: rgb(37, 37, 37); 
+}
+
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.nav-icon {
+    width: 50px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+}
+.content, .profile, .portfolio {
+    font-size: 30px; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h1.content, h1.profile, h1.portfolio  {
+    text-align: center;
+}
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px; 
+    margin-right: 20px;
+}
+
+.profile {
+    flex: 1;
+    font-size: 35px;
+}
+.profile-image {
+    margin-left: 30px;
+    max-width: 300px; 
+}
+
+.profile-image img {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    border: black solid 2px;
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+h3.portfolio {
+    font-size: 10px;
+} 
+
+.portfolio {
+    flex: 1;/* Allows the portfolio section to take up available space */
+    padding: 10px;
+    top: 10px;
+}
+
+.portfolio h1 {
+    font-size: 2em;
+    color: black;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    top: 500px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.footer a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 15px; 
+    margin-right: 20px;
+}
+
+.portfolio {
+    flex: 1;
+    font-size: 35px;
+}
+/* Text Styling */
+nav ul li a:hover {
+    background-color: gray;
+    font-size: 30px;
+    transition: all 0.3s ease;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+nav a:hover {
+    background-color: gray;
+    font-size: 30px;
+    transition: all 0.3s ease;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1;
+    padding: 40px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .portfolio-container {
+    flex: 1;
+    padding: 20px;
+  }
+  .contact-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+  }
+  
+  .footer a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+  }
